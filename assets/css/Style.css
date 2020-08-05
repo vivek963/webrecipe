@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+/*--- Fixed Landing Page Section --*/
+
+  
+  .home-wrap {
+    clip: rect(0, auto, auto, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .home-inner {
+    position: fixed;
+    display: table;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    will-change: transform;
+  }
+ 
+   
+  /*--- iOS Fixed Background Image --*/
+  .fixed-background {
+    position: relative;
+    width: 100%;
+  }
+  .fixed-wrap {
+    clip: rect(0, auto, auto, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -999!important;
+  }
+
+  .fixed {
+    position: fixed;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    will-change: transform;
+  }
+
+
+  html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    color: #222;
+ }
+ 
+ .navbar {
+   padding: .8rem;
+   
+  }
+ 
+  .navbar-nav li {
+    padding-right: 20px;
+    
+ 
+  }
+ 
+  .nav-link {
+    font-size: 1.1em !important;
+ 
+  }
+
+
+.home-inner {
+      
+    background-image: url();
+
+}
+
+
+.caption {
+    
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 40%;
+    z-index: 1;
+    color:black;
+    text-transform: uppercase;
+
+
+}
+
+.caption h1 {
+
+     font-size: 3.8rem;
+     font-weight: 700;
+     letter-spacing: .3rem;
+     padding-bottom: 1rem;
+     text-shadow: .1rem .1rem .8rem whitesmoke;
+
+}
+
+.caption h3 {
+     
+    font-size: 2rem;
+    text-shadow: .1rem .1rem .5rem whitesmoke;
+    padding-bottom: 1.6rem;
+
+
+}
+
+
+.welcome {
+    width:75%;
+    margin: 0 auto;
+    padding-top: 2rem;
+   }
+ 
+ 
+ .welcome hr {
+    border-top: 2px solid #b4b4b4;
+    width:95%;
+    margin-top: .3rem;
+    margin-bottom: 1rem;
+   }
+ 
+ 
+   .fa-plane {
+ 
+    color: #e54d26;
+ 
+   }
+ 
+   .fa-home {
+    
+     color: #563d7c;
+ 
+   }
+ 
+   .fa-users {
+ 
+    color: #2163af;
+ 
+   }
+ 
+   .fa-plane, .fa-home, .fa-users {
+ 
+      font-size: 4em;
+      margin:1rem;
+ 
+   }
+
+
+   .social a {
+
+    font-size: 2.5em;
+    padding: 3rem;
+ 
+  }
+ 
+ .fa-facebook {
+   color: #3b5998;
+ }
+ 
+ .fa-twitter {
+     color:#00aced;
+ 
+ }
+ 
+ .fa-google-plus-g {
+    color:#dd4b39;
+ }
+ 
+ .fa-instagram {
+   color:#517fa4
+ }
+ 
+ 
+ .fa-youtube {
+   color:#bb0000;
+ 
+ }
+ 
+ .fa-facebook:hover, .fa-twitter:hover, .fa-google-plus-g:hover, .fa-instagram:hover, .fa-youtube:hover {
+   color:#d5d5d5;
+ }
+
+
+
+ 
+  
+  
+  
+  
