@@ -75,10 +75,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => '',
-	'password' => '',
-	'database' => '',
+	'hostname' => 'recipeapi.csd8pqlz8wxa.us-east-1.rds.amazonaws.com',
+    'username' => 'admin',
+    'password' => '12345678',
+    'database' => 'recipeapi',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
