@@ -85,7 +85,7 @@ defined('EXIT__AUTO_MIN')      OR define('EXIT__AUTO_MIN', 9); // lowest automat
 defined('EXIT__AUTO_MAX')      OR define('EXIT__AUTO_MAX', 125); // highest automatically-assigned error code
 
 
-define('API_BASEURL', "http://recipeapi-env.eba-q2xw3dsa.us-east-1.elasticbeanstalk.com");
+define('API_BASEURL', "http://recipeapi-env.eba-q2xw3dsa.us-east-1.elasticbeanstalk.com/");
 define('CLIENT_SERVICE', 'mobile-client');
 define("AUTH_KEY", 'reciperestapi');
 
