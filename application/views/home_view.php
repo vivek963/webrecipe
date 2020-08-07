@@ -33,7 +33,7 @@
 
     function getRecipes() {
         let params = {
-            'url': "<?php echo base_url(); ?>index.php/Recipe/getRecipes",
+            'url': "<?php echo base_url(); ?>Recipe/getRecipes",
             'requestType': "POST"
         }
         let response = doAjax(params, function (err, res) {
