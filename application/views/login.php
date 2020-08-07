@@ -265,7 +265,7 @@
             <span>or use your account</span>
             <input id="email" type="email" placeholder="Email" />
             <input id="password" type="password" placeholder="Password" />
-            <a href="<?php echo base_url(); ?>index.php/home/forget">Forgot your password?</a>
+            <a href="<?php echo base_url(); ?>home/forgot">Forgot your password?</a>
             <button>Sign In</button>
         </form>
     </div>

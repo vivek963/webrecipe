@@ -106,7 +106,7 @@
                             </li>
                         <?php } else { ?>
                             <li class="navbar-item">
-                                <a class="nav-link " href="<?php echo base_url(); ?>index.php/home/login">Login/Signup</a>
+                                <a class="nav-link " href="<?php echo base_url(); ?>home/login">Login/Signup</a>
                             </li>
                         <?php } ?>
 

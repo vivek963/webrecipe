@@ -46,12 +46,12 @@ class Home extends CI_Controller {
         }
     }
 
-    public function forget() {
+    public function forgot() {
         if ($this->session->userdata('logged_in')) {
             redirect('Home');
             exit;
         } else {
-            $this->load->view('forget');
+            $this->load->view('forgot');
         }
     }
 
