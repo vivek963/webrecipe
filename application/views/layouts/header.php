@@ -84,26 +84,20 @@
                         <li class="navbar-item">
                             <a class="nav-link" href="<?php echo base_url(); ?>">Home</a>
                         </li>
-                       <!-- <li class="navbar-item dropdown">
-                            <a class="nav-link dropdown-toggle" data-toggle='dropdown' role="button" aria-expanded="false" href="">Category<span class="caret"></a>
-                            <ul class="dropdown-menu" role="menu">
-                                <li class="dropdown-submenu">
-                                    <a href="#">Accounts 1</a>
-                                <li class="dropdown-submenu">
-                                    <a href="#">Accounts 2</a>
-                            </ul>
-                        </li> -->
                         <li class="navbar-item">
-                            <a class="nav-link" href="<?php echo base_url(); ?>index.php/home/nutrition">Nutrition</a>
+                            <a class="nav-link" href="<?php echo base_url(); ?>home/allrecipe">Recipes</a>
                         </li>
                         <li class="navbar-item">
-                            <a class="nav-link" href="<?php echo base_url(); ?>index.php/home/restaurants">Restaurants</a>
+                            <a class="nav-link" href="<?php echo base_url(); ?>home/nutrition">Nutrition</a>
                         </li>
                         <li class="navbar-item">
-                            <a class="nav-link" href="<?php echo base_url(); ?>index.php/home/about">About</a>
+                            <a class="nav-link" href="<?php echo base_url(); ?>home/restaurants">Restaurants</a>
                         </li>
                         <li class="navbar-item">
-                            <a class="nav-link" href="<?php echo base_url(); ?>index.php/home/contact">Contact US</a>
+                            <a class="nav-link" href="<?php echo base_url(); ?>home/about">About</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a class="nav-link" href="<?php echo base_url(); ?>home/contact">Contact US</a>
                         </li>
 
                         <?php if ($this->session->userdata('logged_in')) { ?>
