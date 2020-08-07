@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://localhost/recipeweb/';
+$config['base_url'] = 'http://recipeweb1-env.eba-v3ypwwx7.us-east-1.elasticbeanstalk.com/';
 
 /*
 |--------------------------------------------------------------------------
