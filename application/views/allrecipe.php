@@ -1,32 +1,11 @@
 
 </br>
-<form class="example" action="/action_page.php" style="margin:auto;max-width:500px">
-    <input type="text" placeholder="Search.." name="search2">
-    <button type="submit"><i class="fa fa-search"></i></button>
-</form>
-</br>
 
 <div class="container">
     <h2> All Recipes </h2>
 
     <div class="row" id="recipeData">
-        <!--        <div class="col-12 col-md-6 col-lg-4 col-xl-3">
         
-                    <div class="card mb-4">
-                        <img class="card-img-top" src="<?php // echo base_url()  ?>assets/images/image-2.jpg" alt="card image cap">
-                        <div class="card-body">
-        
-                            <h2 class="h4 card-title">card one</h2>
-                            <h3 class="h5 card-subtitle mb-3">subtitle</h3>
-                            <p class="card-text"> Some quick example text to build the card title. </p>
-                            <a href="#" class="btn btn-primary">GO to Recipe</a>
-        
-                        </div>
-                    </div>
-                </div>-->
-
-        
-
 
     </div>
 
