@@ -55,6 +55,15 @@
             </div>
         </div>`;
                 }
+
+                var heights = $(".card-body").map(function ()
+    {
+        return $(this).height();
+    }).get();
+
+maxHeight = Math.max.apply(null, heights);
+
+
                 $('#recipeData').html(data);
                 console.log(res);
 
