@@ -242,12 +242,6 @@
     <div class="form-container sign-up-container">
         <form id="signupform">
             <h1>Create Account</h1>
-            <div class="social-container">
-                <!--<a href="#" class="social"><i class="fa fa-facebook"></i></a>-->
-                <a href="#" class="social"><i class="fa fa-google"></i></a>
-                <!--<a href="#" class="social"><i class="fa fa-linkedin"></i></a>-->
-            </div>
-            <span>or use your email for registration</span>
             <input id="name" type="text" placeholder="Name" />
             <input id="email1" type="email" placeholder="Email" />
             <input id="password1" type="password" placeholder="Password" />
@@ -257,7 +251,6 @@
     <div class="form-container sign-in-container">
         <form id="loginform">
             <h1>Sign in</h1>
-            <span>or use your account</span>
             <input id="email" type="email" placeholder="Email" />
             <input id="password" type="password" placeholder="Password" />
             <a href="<?php echo base_url(); ?>home/forgot">Forgot your password?</a>
