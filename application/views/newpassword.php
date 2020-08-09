@@ -104,7 +104,7 @@ input {
         <input id="password" type="password" placeholder="Enter New Password" />
 
         <span>Please re-enter your new password below</span>
-        <input id="renter_password" type="text" placeholder="Re-Enter New Password" />
+        <input id="renter_password" type="password" placeholder="Re-Enter New Password" />
 
         <button>SUBMIT</button>
     </form>
