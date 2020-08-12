@@ -26,7 +26,7 @@
                     <div class="card mb-4">
                     <img height="300" class="card-img-top" src="` + res.recipeData[i].image + `" alt="` + name + `">
                     <div class="card-body">
-                    <h6 class=" card-title">` + res.recipeData[i].name + `</h6>
+                    <h5 class=" card-title">` + res.recipeData[i].name + `</h5>
                     <h5 class="card-subtitle mb-3">Category</h5>
                     <p class="card-subtitle mb-3">` + res.recipeData[i].category + `</p>
                     <h5 class="card-subtitle mb-3">Difficulty</h5>
