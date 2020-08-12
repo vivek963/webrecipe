@@ -28,12 +28,11 @@
                     <div class="card mb-4">
                     <img height="300" class="card-img-top" src="` + res.recipeData[i].image + `" alt="` + name + `">
                     <div class="card-body">
-                    <h5 class="card-title">Name</h5>
-                    <h6 class=" card-title">` + res.recipeData[i].name + `</h6>
+                    <p class=" card-title">` + res.recipeData[i].name + `</p>
                     <h5 class="card-subtitle mb-3">Category</h5>
-                    <h6 class="card-subtitle mb-3">` + res.recipeData[i].category + `</h6>
+                    <p class="card-subtitle mb-3">` + res.recipeData[i].category + `</p>
                     <h5 class="card-subtitle mb-3">Difficulty</h5>
-                    <h6 class="card-subtitle mb-3">` + res.recipeData[i].difficulty + `</h6>
+                    <p class="card-subtitle mb-3">` + res.recipeData[i].difficulty + `</p>
                     <div onclick="getRecipeData(` + res.recipeData[i].recipe_id + `)" class="btn btn-primary">Go to Recipe</div>
                 </div>
             </div>
