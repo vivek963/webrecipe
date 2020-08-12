@@ -66,9 +66,9 @@
             <div class="card-body">
                 <p class="h4 card-title">` + res.data.results[i].name + `</p>
         
-                <h3 class="h5 card-subtitle mb-3">User's Rating: ` <p>+ res.data.results[i].rating + </p>`/5</h3>
-                <h3 class="h5 card-subtitle mb-3">Address: `<p> + res.data.results[i].vicinity + </p>`</h3>
-                <h3 class="h5 card-subtitle mb-3">Status: ` <p> + status_val + </p> `</h3>
+                <h3 class="h5 card-subtitle mb-3">User's Rating: <p>`+ res.data.results[i].rating + ` </p>/5</h3>
+                <h3 class="h5 card-subtitle mb-3">Address:<p> `+ res.data.results[i].vicinity + `</p></h3>
+                <h3 class="h5 card-subtitle mb-3">Status:<p> `+ status_val +  ` </p></h3>
 
             </div>
         </div>
